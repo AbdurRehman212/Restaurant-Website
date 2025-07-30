@@ -1,6 +1,6 @@
 # Savoria Restaurant Website
 
-A modern, responsive restaurant website built with React, TypeScript, and Tailwind CSS. Features a beautiful user interface with smooth animations, comprehensive menu system, and professional design suitable for fine dining establishments.
+A modern, responsive restaurant website built with React and Tailwind CSS. Features a beautiful user interface with smooth animations, comprehensive menu system, and professional design suitable for fine dining establishments.
 
 ## Features
 
@@ -39,36 +39,35 @@ A modern, responsive restaurant website built with React, TypeScript, and Tailwi
 
 ## Technology Stack
 
-- **Frontend Framework**: React 18 with TypeScript
+- **Frontend Framework**: React 18 with JavaScript
 - **Styling**: Tailwind CSS for utility-first styling
 - **Routing**: React Router DOM for client-side navigation
 - **State Management**: React Context API for menu filtering and sorting
 - **Icons**: Lucide React for consistent iconography
 - **Build Tool**: Vite for fast development and optimized builds
-- **Code Quality**: ESLint with TypeScript support
 
 ## Project Structure
 
 ```
 src/
 ├── components/          # Reusable UI components
-│   ├── Header.tsx       # Navigation header with mobile menu
-│   ├── Footer.tsx       # Site footer with contact info
-│   ├── HeroSection.tsx  # Homepage hero section
-│   ├── FeaturedDishes.tsx
-│   ├── RestaurantFeatures.tsx
-│   ├── CallToAction.tsx
-│   ├── MenuFilters.tsx  # Menu category and sort controls
-│   ├── MenuGrid.tsx     # Menu items display grid
-│   └── MenuCard.tsx     # Individual menu item cards
+│   ├── Header.jsx       # Navigation header with mobile menu
+│   ├── Footer.jsx       # Site footer with contact info
+│   ├── HeroSection.jsx  # Homepage hero section
+│   ├── FeaturedDishes.jsx
+│   ├── RestaurantFeatures.jsx
+│   ├── CallToAction.jsx
+│   ├── MenuFilters.jsx  # Menu category and sort controls
+│   ├── MenuGrid.jsx     # Menu items display grid
+│   └── MenuCard.jsx     # Individual menu item cards
 ├── pages/               # Route-based page components
-│   ├── HomePage.tsx     # Landing page
-│   ├── MenuPage.tsx     # Menu browsing page
-│   ├── AboutPage.tsx    # Restaurant information
-│   └── ContactPage.tsx  # Contact and reservations
+│   ├── HomePage.jsx     # Landing page
+│   ├── MenuPage.jsx     # Menu browsing page
+│   ├── AboutPage.jsx    # Restaurant information
+│   └── ContactPage.jsx  # Contact and reservations
 ├── contexts/            # React Context providers
-│   └── MenuContext.tsx  # Menu data and filtering logic
-└── App.tsx             # Main application component
+│   └── MenuContext.jsx  # Menu data and filtering logic
+└── App.jsx             # Main application component
 ```
 
 ## Getting Started
@@ -135,7 +134,7 @@ The website is designed to be easily customizable:
 Modify the color scheme in `tailwind.config.js` or use Tailwind's built-in color utilities throughout the components.
 
 ### Content
-- Update menu items in `src/contexts/MenuContext.tsx`
+- Update menu items in `src/contexts/MenuContext.jsx`
 - Modify restaurant information in the respective page components
 - Replace images with your own (maintain aspect ratios for best results)
 
